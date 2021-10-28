@@ -1,6 +1,6 @@
-# Feliz.ReactInputMask Demo
+# Feliz.ReactPdf Demo
 
-This demo demonstrates the ReactInputMask component in a basic Feliz template.
+This demo demonstrates the ReactPdf component in a basic Feliz template.
 
 ## Requirements
 
