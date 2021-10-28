@@ -17,6 +17,10 @@ Feliz/Fable bindings for [react-pdf](https://github.com/wojtekmaj/react-pdf)
 (From the target project folder)
 ```dotnet femto install Feliz.ReactPdf```
 
+## Caveats
+
+Current version requires webpack. Will add support for other options if there's demand (or if there's a helpful pull request ;) )
+
 ## Contributing
 
 This project uses `fake`, `paket`, and `femto` as .NET Core local tools. Therefore, run `dotnet tool restore` to restore the necessary CLI tools before doing anything else.
