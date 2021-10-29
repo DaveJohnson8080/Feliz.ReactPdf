@@ -52,7 +52,7 @@ type onLoadErrorResult = {
 
 type fileRequest = {
     url : string option
-    data : int array option
+    data : byte array option
 }
 
 type reactPdf =
