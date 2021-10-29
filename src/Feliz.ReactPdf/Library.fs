@@ -50,11 +50,17 @@ type onLoadErrorResult = {
     message : string
 }
 
+type fileRequest = {
+    url : string option
+    data : int array option
+}
+
 type reactPdf =
     static member inline pageNumber (value : int) = Interop.mkAttr "pageNumber" value
     static member inline scale (value : float) = Interop.mkAttr "scale" value
     static member inline url (value : string) = Interop.mkAttr "url" value
     static member inline file (value : string) = Interop.mkAttr "file" value
+    static member inline fileFromRecord (value : fileRequest) = Interop.mkAttr "file" value
     static member inline pageIndex (value : int) = Interop.mkAttr "pageNumber" value
     static member inline renderMode (value : string) = Interop.mkAttr "renderMode" value
     static member inline onLoadSuccess (value : onLoadSuccessResult option -> unit) = Interop.mkAttr "onLoadSuccess" value
