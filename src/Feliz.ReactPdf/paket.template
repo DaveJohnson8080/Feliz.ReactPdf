@@ -7,6 +7,9 @@ tags
 dependencies
     FSharp.Core >= LOCKEDVERSION
     Feliz >= LOCKEDVERSION
+readme
+    docs/README.md
 files
     *.fsproj ==> fable
     *.fs ==> fable
+    ../../README.md ==> docs/
