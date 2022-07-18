@@ -1,5 +1,5 @@
 STORAGE: PACKAGES
-RESTRICTION: || (== netstandard2.0) (== netstandard2.1)
+RESTRICTION: == net6.0
 NUGET
   remote: https://api.nuget.org/v3/index.json
     Fable.AST (3.1.1)
@@ -23,18 +23,17 @@ NUGET
       Fable.Browser.Event (>= 1.4.4)
       Fable.Core (>= 3.0)
       FSharp.Core (>= 4.7.2)
-    Fable.Core (3.4)
-      FSharp.Core (>= 4.7.2)
+    Fable.Core (3.7.1)
     Fable.React (7.4.2)
       Fable.Browser.Dom (>= 2.4.4)
       Fable.Core (>= 3.2.7)
       FSharp.Core (>= 4.7.2)
-    Feliz (1.54)
+    Feliz (1.65)
       Fable.Core (>= 3.1.5)
       Fable.React (>= 7.4)
-      Feliz.CompilerPlugins (>= 1.6)
+      Feliz.CompilerPlugins (>= 1.10)
       FSharp.Core (>= 4.7.2)
-    Feliz.CompilerPlugins (1.6)
+    Feliz.CompilerPlugins (1.10)
       Fable.AST (>= 3.0)
       FSharp.Core (>= 4.7.2)
-    FSharp.Core (5.0)
+    FSharp.Core (6.0.5)
