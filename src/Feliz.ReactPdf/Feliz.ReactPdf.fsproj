@@ -10,7 +10,7 @@
   </ItemGroup>
   <PropertyGroup>
     <NpmDependencies>
-      <NpmPackage Name="react-pdf" Version="5.5.0" />
+      <NpmPackage Name="react-pdf" Version="^5.5.0" />
     </NpmDependencies>
   </PropertyGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
